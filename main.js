@@ -1,6 +1,12 @@
+let fjala1;
+fjala1 = "Koha";
+
+let fjala2;
+fjala2 = "Ditore"
+
 let titulli_i_faqes;
 
-titulli_i_faqes = "Koha Ditore";
+titulli_i_faqes = fjala1 + " " + fjala2;
 
 document.getElementById('title').innerHTML = titulli_i_faqes;
 
