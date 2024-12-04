@@ -1,0 +1,14 @@
+#pesha-ne-lift {
+    font-weight: bold;
+}
+
+#lajmet-e-dites {
+    display: flex;
+}
+
+#lajmet-e-dites article {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: aquamarine;
+}
