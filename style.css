@@ -2,13 +2,15 @@
     font-weight: bold;
 }
 
-#lajmet-e-dites {
+#lajmet-e-dites, #lajmet-e-dites-2 {
     display: flex;
+    flex-wrap: wrap;
 }
 
-#lajmet-e-dites article {
+#lajmet-e-dites article, #lajmet-e-dites-2 article{
     width: 200px;
     height: 200px;
     margin: 10px;
+    min-width: 100px;
     background-color: aquamarine;
 }
