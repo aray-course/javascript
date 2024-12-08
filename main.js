@@ -1,3 +1,5 @@
+debugger;
+
 let fjala1;
 fjala1 = "Koha";
 
@@ -24,8 +26,6 @@ pesha_ne_lift = njerez_ne_lift * pesha_per_person;
 document.getElementById('njerz-ne-lift').innerHTML = njerez_ne_lift;
 document.getElementById('pesha-ne-lift').innerHTML = pesha_ne_lift;
 
-debugger;
-
 function kalkuloPermbatjenEStringutTeLajmeveTeDites(perseritjet) {
     let permbatja_e_elementit_lajmet_e_dites;
     permbatja_e_elementit_lajmet_e_dites = "";
@@ -48,3 +48,11 @@ let gjysa_e_lajmeve;
 gjysa_e_lajmeve = kalkuloPermbatjenEStringutTeLajmeveTeDites(numri_i_artikujve / 2);
 document.getElementById('lajmet-e-dites-2').innerHTML = gjysa_e_lajmeve;
 
+
+function kalkuloPeshen(numri_i_njerzve, pesha_per_person) {
+    return numri_i_njerzve * pesha_per_person;
+}
+
+function test(numri_1, numri_2) {
+    return numri_1 + numri_2 * numri_1;
+}
