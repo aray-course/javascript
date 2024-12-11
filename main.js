@@ -1,7 +1,17 @@
-debugger;
+var firstname = "Redon";
+var lastname = "Tahiri";
 
-function kalkuloDistanceDheKalorite(shpejtsia_e_vrapimit, koha_e_vrapimit, kalorite_e_djegura_per_km) {
-   
+console.log("1:", firstname, lastname);
+
+function getFullName(firstname, lastname, vjet) {
+    firstname = "Bardh";
+    return firstname + ' ' + lastname + ' i ka ' + vjet + ' vjet';
 }
 
-kalkuloDistanceDheKalorite(10, 3, 10);
+function showAlert() {
+    debugger;
+    let test = getFullName(firstname, lastname, 21);
+    alert(test)
+}
+
+console.log('2:', "Fullname is", getFullName());
