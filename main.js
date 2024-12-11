@@ -21,7 +21,3 @@ function kalkuloDistanceDheKalorite(shpejtsia_e_vrapimit, koha_e_vrapimit, kalor
 }
 
 kalkuloDistanceDheKalorite(10, 3, 10);
-kalkuloDistanceDheKalorite(15, 2.5, 20);
-kalkuloDistanceDheKalorite(20, 2, 40);
-kalkuloDistanceDheKalorite(10, 3, 3.4);
-kalkuloDistanceDheKalorite(100, 3.5, 3.4);
